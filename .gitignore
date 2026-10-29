@@ -1,0 +1,17 @@
+node_modules/
+.next/
+.npm-cache/
+*.tsbuildinfo
+dev-server*.log
+playwright-report/
+test-results/
+.chrome-profile/
+.env
+.env.*
+!.env.example
+.vercel/
+screenshots/
+coverage/
+*.log
+.DS_Store
+Thumbs.db

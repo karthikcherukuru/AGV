@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { CornerNotch } from "./CornerNotch";
 import { SiteHeader } from "./SiteHeader";
+import { HeroLogo } from "./HeroLogo";
 
 export function HeroMedia() {
   return (
@@ -21,6 +22,7 @@ export function HeroMedia() {
             />
           </picture>
         </div>
+        <HeroLogo />
         <CornerNotch />
         <div className="hero-inset">
           <Image
